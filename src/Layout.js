@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Layout = (props) => {
   return (
     <React.Fragment>
@@ -10,13 +11,14 @@ const Layout = (props) => {
       </div>
       <footer className="p-3 bg-light">
         <div className="mb-2">
-          <a className="badge badge-dark" href="https://github.com/Altcademy/exchange-rate-site" target="_blank" rel="noreferrer">GitHub</a>
+          <a className="badge badge-dark" href="https://github.com/Altcademy/exchange-rate-site" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
         <div>
-          <span className="mr-3 text-secondary">Built by <a href="https://www.blcooper.com" target="_blank" rel="noreferrer">Brian</a> with ☕ and 💜</span>
+          <span className="mr-3 text-secondary">Built by <a href="https://www.altcademy.com" target="_blank" rel="noopener noreferrer">Altcademy</a> with ☕ and 💜</span>
         </div>
       </footer>
     </React.Fragment>
   );
 }
+
 export default Layout;
