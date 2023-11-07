@@ -1,0 +1,14 @@
+.form-row {
+    /* make it linear */
+    display: flex;
+}
+
+a {
+    /*remove underline*/
+    text-decoration: none;
+    color: darkblue
+}
+
+footer {
+    text-align: center;
+}
