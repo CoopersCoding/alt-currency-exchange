@@ -12,7 +12,7 @@ const Layout = (props) => {
       </div>
       <footer className="p-3 bg-light">
         <div className="mb-2">
-        <h6><span class="badge bg-secondary"><a className="mr-3 " href="https://github.com/Altcademy/alt-currency-exchange" target="_blank" rel="noopener noreferrer">GitHub</a></span></h6>
+        <h6><span className="badge bg-secondary"><a className="mr-3 " href="https://github.com/Altcademy/alt-currency-exchange" target="_blank" rel="noopener noreferrer">GitHub</a></span></h6>
         </div>
         <div>
           <span className="mr-3 text-secondary">Built by <a href="https://www.altcademy.com" target="_blank" rel="noopener noreferrer">CodewithCoop </a>in collaboration with  <a href="https://www.altcademy.com" target="_blank" rel="noopener noreferrer">Altcademy </a>and a lot of ☕</span>
