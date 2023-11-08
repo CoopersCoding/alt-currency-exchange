@@ -7,6 +7,7 @@ const Layout = (props) => {
       <nav className="navbar navbar-light bg-light">
         <Link to="/"><span className="navbar-brand mb-0 h1">Currency Exchange Rates</span></Link>
       </nav>
+      <h1 className='title'>Brian's Currency Converter</h1>
       <div className="container py-3">
         {props.children}
       </div>
